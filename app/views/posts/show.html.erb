@@ -1,0 +1,10 @@
+<h1>Showing Posts</h1>
+
+
+<h3><%= @post.title %></h3>
+<p><%= @post.body %></p>
+
+<%= link_to "All Posts", posts_path %>
+<%= link_to "Edit", edit_post_path(@post) %>
+<%= link_to "Destroy", delete_post_path(@post) %>
+
